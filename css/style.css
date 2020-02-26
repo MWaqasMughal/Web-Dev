@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.clear-fix{
+    clear: both;
+}
+.header {
+    background-image: url(../assets/image/newcropped.jpg);
+    min-height: 600px;
+    position: relative;
+}
+
+.header-overlay {
+    background-color: rgba(247, 191, 82, 0.9);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+.top-social-bar{
+    margin-top: 8px;
+    border-bottom: 1px solid white;
+
+}
+.top-social-left{
+    float: left;
+}
+.top-social-left li{
+    list-style: none;
+    display: inline-block;
+
+}
+.top-social-right{
+    float: right;
+}
+.top-social-right li{
+    list-style: none;
+    display: inline-block;
+}
+.top-social-bar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px;
+    color: black;
+}
+.nav-bar-left{
+    width: 20%;
+    float: left;
+}
+.nav-bar-left img{
+    width: 50%;
+}
+.nav-bar-right{
+    float: right;
+}
+.nav-bar-right ul{
+    margin-top: 16px;
+}
+.nav-bar-right ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav-bar-right ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px;
+    color: black;
+    font-weight: bold;
+}
+.cta{
+    border: 1px solid black;
+    border-radius: 20px;
+}
