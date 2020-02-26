@@ -78,3 +78,29 @@ body {
     border: 1px solid black;
     border-radius: 20px;
 }
+.slogan{
+   width: 100%;
+}
+.slogan-left{
+    float: left;
+    margin-top: 100px;
+}
+.slogan-left h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.slogan-left input{
+    color: white;
+    background-color: black;
+    padding: 08px;
+    border-style: none;
+}
+.slogan-image{
+    margin-top: 20px;
+    float: right;
+}
+.slogan-image img{
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
