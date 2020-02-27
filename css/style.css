@@ -92,7 +92,7 @@ ul{
 }
 .slogan-left{
     float: left;
-    margin-top: 100px;
+    padding: 100px 0;
 }
 .slogan-left h1{
     font-size: 64px;
@@ -112,5 +112,4 @@ ul{
 }
 .slogan-image img{
     width:75%;
-    object-fit: cover;
 }
