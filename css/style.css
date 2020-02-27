@@ -20,7 +20,7 @@ ul{
 }
 
 .header-overlay {
-    background-color: rgba(248, 180, 82, 0.9);
+    background-color: rgba(245, 175, 38, 0.9);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -30,12 +30,12 @@ ul{
 }
 .top-social-bar{
     margin-top: 8px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #fa8e50;
     padding: 08px 0;
 
 }
-.top-social-bar img{
-    width: 50%;
+.top-social-bar .fa{
+    font-size: 16px;
 
 }
 .top-social-left{
