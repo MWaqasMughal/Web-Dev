@@ -13,6 +13,8 @@ ul{
 .clear-fix{
     clear: both;
 }
+/**Header Starts Here**/
+
 .header {
     background-image: url(../assets/image/newcropped.jpg);
     min-height: 600px;
@@ -113,3 +115,85 @@ ul{
 .slogan-image img{
     width:75%;
 }
+/**Header Ends Here**/
+
+/**Section for services starts here**/
+.services{
+    padding: 40px 0;
+}
+.lead-heading{
+    text-align: center;
+}
+.lead-inner{
+    margin-top: 0px;
+    color: orange;
+}
+.services-detail{
+    margin: 20px;
+    text-align: center;
+}
+.service{
+    width: 32%;
+    padding: 24px;
+    float: left;
+}
+/**Section for services End here**/
+
+/**Section for Offer starts here**/
+.offer{
+    padding: 40px 0;
+}
+.offer-inner{
+    width: 50%;
+    float: left;
+}
+.offer-inner img{
+    width: 90%;
+}
+.offer-inner h1{
+   margin: 3px 0;
+}
+.offer-inner-detail{
+    padding: 60px 0;
+}
+.offer-inner-detail p{
+    margin-bottom: 30px;
+}
+.offer-inner-detail a{
+    border: 1px solid orange;
+    padding: 12px 16px;
+    color: black;
+    text-decoration: none;
+}
+/**Section for Offer End here**/
+
+/**Section for Projects starts here**/
+.projects{
+    padding: 40px 0;
+}
+.projects-nav-bar{
+    text-align: center;
+}
+.projects-nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0;
+}
+.projects-nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+}
+.projects-nav-bar ul li a:hover{
+    border: 1px solid orange;
+}
+.projects-image{
+    width: 33.3%;
+    float: left;
+}
+.projects-image img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+/**Section for Projects end here**/
