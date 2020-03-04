@@ -253,27 +253,32 @@ a {
 .stats-image img{
     width: 100%;
 }
+.table-wrapper{
+    padding: 60px 0;
+}
+.stats-table{
+    width: 100%;
+    display: table;   
+     
+}
 .stats-inner-data{
-    width: 24%;
-    padding: 80px 0;
-    float: left;
+    display: table-row;
+    vertical-align: middle; 
 }
-.figure{
-    width: 38%;
-    float: left;
+.table-figure{
+    padding: 10px 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
-.figure h1{
+.table-figure h1{
     font-size: 56px;
-    text-align: right;
 }
-.figure-desc{
-    width: 60%;
-    padding: 20px 10px;
-    float: left;
+.table-figure-desc{
+    display: table-cell;
+    vertical-align: middle;
 }
-.figure-desc h5{
-    font-size: 16px;
-}
+
 /**Section for stats end here**/
 
 /**Section for testimonials starts here**/
@@ -341,5 +346,55 @@ a {
 .news-reading a{
     padding: 10px 20px;
     border: 1px solid rgba(245, 175, 38, 0.9);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 /**Section for News ends here**/
+
+/**Section for footer starts here**/
+.footer{
+    padding: 40px 0;
+    background-color: 	#F7F8FD;
+}
+.footer-sponsors{
+    border-bottom: 1px solid orange;
+    padding: 20px 0;
+}
+.footer-sponsors img{
+    width: 15%;
+    margin: 0 25px;
+}
+.footer-widgets{
+    width: 32%;
+    float: left;
+}
+.footer-widgets ul li{
+    list-style: none;
+    margin: 16px 0;
+}
+.footer-links {
+    display: inline-block;
+    margin: 0 20px;
+}
+.footer-links li{
+    list-style: square!important;
+}
+.footer-links li a{
+    text-decoration: none;
+}
+.footer-widgets input[type="text"]{
+    border: 1px solid rgba(245, 175, 38, 0.9);
+    padding: 5px;
+}
+.footer-widgets input[type="button"]{
+    background-color: rgba(245, 175, 38, 0.9);
+    border: none;
+    padding: 5px;
+}
+.footer-social-bar li{
+    display: inline-block;
+}
+.footer-social-bar li a{
+    margin-right: 16px;
+}
+/**Section for footer ends here**/
