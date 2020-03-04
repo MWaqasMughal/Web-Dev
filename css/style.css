@@ -374,10 +374,10 @@ a {
 }
 .footer-links {
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 .footer-links li{
-    list-style: square!important;
+    list-style: url(../assets/icons/icons8-chevron-right-24.png)!important;
 }
 .footer-links li a{
     text-decoration: none;
